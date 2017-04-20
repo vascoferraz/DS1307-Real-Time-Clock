@@ -120,7 +120,7 @@ void printDate (void)
  Serial.print(now.year(), DEC);
 
  // Print weekday
- switch(now.dayOfWeek())
+ switch(now.dayOfTheWeek())
  {
   case 0:  Serial.println(" | Sunday");    break;
   case 1:  Serial.println(" | Monday");    break;
